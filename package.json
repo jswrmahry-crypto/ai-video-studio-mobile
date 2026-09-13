@@ -1,0 +1,51 @@
+{
+  "name": "ai-video-studio-mobile",
+  "version": "5.0.0",
+  "type": "module",
+  "description": "Advanced AI-powered video editing and generation studio optimized for mobile workflows",
+  "author": "jswrmahry-crypto",
+  "license": "MIT",
+  "homepage": "https://github.com/jswrmahry-crypto/ai-video-studio-mobile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jswrmahry-crypto/ai-video-studio-mobile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jswrmahry-crypto/ai-video-studio-mobile/issues"
+  },
+  "keywords": [
+    "ai",
+    "video",
+    "studio",
+    "mobile",
+    "openai",
+    "video-editing",
+    "express",
+    "node"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.js\"",
+    "prestart": "npm run validate-env"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "openai": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0"
+  },
+  "optionalDependencies": {},
+  "preferGlobal": false,
+  "private": false
+}
